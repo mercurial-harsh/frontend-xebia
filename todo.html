@@ -1,0 +1,63 @@
+#forked from Deepankar Sir
+
+<html>
+
+<head>
+    <style>
+        body {
+            margin: 0;
+            display: grid;
+            grid-template-rows: 20% 80%;
+        }
+
+        .header {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: blue;
+            font-size: 50px;
+        }
+
+        .todos-container {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+        }
+
+        .todos-container ul {
+            display: flex;
+            flex-direction: column;
+            list-style-type: none;
+            width: 100%;
+        }
+
+        .todos-container ul li {
+            margin-bottom: 10px;
+        }
+
+        .todos-container ul li input[type="text"] {
+            width: 90%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div>Todo list</div>
+    </div>
+    <div class="todos-container">
+        <ul>
+            <li>
+                <input type="checkbox" />
+                <input type="text" />
+            </li>
+            <li>
+                <input type="checkbox" />
+                <input type="text" />
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
