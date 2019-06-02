@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <style>
+        .a {}
+
+        .a>input:first-child {
+            color: blue;
+        }
+
+        .a>.b {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="a">
+
+        <!-- blue color -->
+        <input type="text" />
+
+        <!-- red color -->
+        <input type="text" class="b" />
+
+        <!-- red color -->
+        <input type="text" />
+
+    </div>
+</body>
+
+</html>
